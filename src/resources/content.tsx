@@ -217,16 +217,24 @@ const about: About = {
         name: "University of Transport Technology - /Aug 2019 – Dec 2023/",
         description: 
           [
-            <>- Bachelor of Information Technology Engineering</>,
-            <>- GPA: 3.3 / 4.0</>,
+            <>
+              - Bachelor of Information Technology Engineering
+            </>,
+            <>
+              - GPA: 3.3 / 4.0
+            </>,
           ],
       },
       {
         name: "Hanoi Transport Vocational College",
         description:
           [
-            <>- Applied Information Technology</>,
-            <>- GPA: 3.5 / 4.0</>,
+            <>
+              - Applied Information Technology
+            </>,
+            <>
+              - GPA: 3.5 / 4.0
+            </>,
           ],
       },
     ],
