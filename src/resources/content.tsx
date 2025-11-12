@@ -43,6 +43,7 @@ const social: Social = [
   },
 ];
 
+
 const home: Home = {
   path: "/",
   image: "/images/og/home1.jpg",
