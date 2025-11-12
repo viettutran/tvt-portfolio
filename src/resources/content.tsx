@@ -1,4 +1,4 @@
-import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
+import { About, Video, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
 import { Line, Logo, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
@@ -66,8 +66,7 @@ const home: Home = {
   subline: (
     <>
       I’m 25 years old, {" "}
-      and I currently work in 
-      <br /> Multimedia.
+      and I currently work in Multimedia.
     </>
   ),
 };
@@ -93,9 +92,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        "With over three years of experience as a graphic designer and video editor,
+        my passion for this field has driven me to continuously learn and enhance
+        my multimedia skills."
       </>
     ),
   },
@@ -104,17 +103,16 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "BRONTOBYTE",
+        timeframe: "August 2022 – September 2023",
+        role: "/Editor-FullTime/",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Designed visuals, printed materials, and multi-platform promotional videos on topics
+            such as robotics and programming, helping increase engagement and achieve multiple
+            videos with over 1 million views.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
           </>,
         ],
         images: [
@@ -128,17 +126,89 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "MM KOREA",
+        timeframe: "September 2023 – December 2024",
+        role: "/Editor remote/",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Designed multimedia content, including product images, standees, backdrops, event
+            award presentations, and multi-platform videos featuring products from Korea.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "MH AUTHENTIC",
+        timeframe: "September 2023 – August 2025",
+        role: "/Editor Fulltime/",
+        achievements: [
+          <>
+            Designed multimedia content, including images, broadcast materials, printed publications,
+            landing pages, and multi-platform promotional videos focused on cosmetics and beauty for
+            the brands Luminous and Dr.Nara.
+          </>,
+          <>
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "FDR/FREDO SRUDIO",
+        timeframe: "May 2024 – March 2025",
+        role: "/Editor Remote/",
+        achievements: [
+          <>
+            Designed visuals, printed T-shirts, and multi-platform promotional videos focused
+            on youth fashion managed product listings on Facebook, Shopee, and TikTok.
+          </>,
+          <>
+            Managed product listings on Facebook, Shopee, and TikTok.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "HENIE WEDDING",
+        timeframe: "December 2023 – March 2025",
+        role: "/Editor and Design Team Lead/",
+        
+        achievements: [
+          <>
+            Designed multimedia content, including images, landing pages, and promotional videos
+            for a wedding photography studio.
+          </>,
+          <>
+            Oversaw contract content.
+          </>,
+          <>
+            Controlled output quality (received files, detailed Photoshop color demos, and print materials).
+            Evaluated the work performance of Photoshop team members.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "FREELANCER",
+        timeframe: "June 2021 – currently",
+        role: "/Graphic Designer-Viden Edtior/",
+        achievements: [
+          <>
+            Filmed, edited videos, and created motion graphics for the channels 'Natural English'
+            and 'Vàng Son Lộng Lẫy.
+          </>,
+          <>
+            Photographed and edited product images and menus; produced promotional videos for the
+            Japanese restaurant 'Mikeson Izakaza Hanoi.Managed product listings on Facebook, Shopee,
+            and TikTok.
+          </>,
+          <>
+            Designed logos, banners, posters, thumbnails, packaging, business cards, and produced
+            client-requested videos.
+          </>,
+          <>
+            Developed sales landing pages and created corporate brochures.
           </>,
         ],
         images: [],
@@ -150,12 +220,14 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of Transport Technology - /Aug 2019 – Dec 2023/",
+        description: <>- Bachelor of Information Technology Engineering</>,
+        <>- GPA: 3.3 / 4.0</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Hanoi Transport Vocational College",
+        description: <>Applied Information Technology</>,
+        <>- GPA: 3.5 / 4.0</>,
       },
     ],
   },
@@ -164,7 +236,7 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Professional Skills",
         description: (
           <>Able to prototype in Figma with Once UI with unnatural speed.</>
         ),
@@ -191,7 +263,7 @@ const about: About = {
         ],
       },
       {
-        title: "Next.js",
+        title: "Soft Skills",
         description: (
           <>Building next gen apps with Next.js + Once UI + Supabase.</>
         ),
@@ -223,9 +295,9 @@ const about: About = {
   },
 };
 
-const blog: Blog = {
-  path: "/blog",
-  label: "Blog",
+const video: Video = {
+  path: "/video",
+  label: "Video",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
