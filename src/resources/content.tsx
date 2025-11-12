@@ -1,4 +1,4 @@
-import { About, Video, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
+import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
 import { Line, Logo, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
@@ -295,9 +295,9 @@ const about: About = {
   },
 };
 
-const video: Video = {
-  path: "/video",
-  label: "Video",
+const blog: Blog = {
+  path: "/blog",
+  label: "Blog",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
