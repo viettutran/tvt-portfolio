@@ -49,7 +49,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Hello, my name is</>,
+  headline: <>Hello, my name is Viet Tu</>,
   featured: {
     display: true,
     title: (
@@ -65,14 +65,9 @@ const home: Home = {
   },
   subline: (
     <>
-      Hi, my name is {" "}
-      <Logo
-        dark
-        icon="/trademarks/wordmark-dark.svg"
-        style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
-      />
-      I’m 24 years old,
-      <br /> and I currently work in Multimedia.
+      I’m 25 years old, {" "}
+      and I currently work in 
+      <br /> Multimedia.
     </>
   ),
 };
