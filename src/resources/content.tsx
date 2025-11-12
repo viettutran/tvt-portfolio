@@ -238,10 +238,6 @@ const about: About = {
             name: "Figma",
             icon: "figma",
           },
-          {
-            name: "Premiere",
-            icon: "premiere",
-          },
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
