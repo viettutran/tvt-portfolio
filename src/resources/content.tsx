@@ -65,7 +65,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
+      Hi, my name is {" "}
       <Logo
         dark
         icon="/trademarks/wordmark-dark.svg"
