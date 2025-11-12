@@ -226,7 +226,7 @@ const about: About = {
       },
       {
         name: "Hanoi Transport Vocational College",
-        description: <>Applied Information Technology
+        description: <>- Applied Information Technology
         - GPA: 3.5 / 4.0</>,
       },
     ],
