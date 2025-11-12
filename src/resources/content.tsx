@@ -90,13 +90,13 @@ const about: About = {
   intro: {
     display: true,
     title: "Introduction",
-    description: (
+    description: [
       <>
         "With over three years of experience as a graphic designer and video editor,
         my passion for this field has driven me to continuously learn and enhance
         my multimedia skills."
       </>,
-      ),
+      ],
   },
   work: {
     display: true, // set to false to hide this section
