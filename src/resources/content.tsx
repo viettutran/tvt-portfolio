@@ -8,8 +8,8 @@ const person: Person = {
   role: "Multimedia",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
-  location: "TVTPORTFOLIO", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Vietnamese"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/VietNam", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
