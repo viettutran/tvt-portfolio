@@ -63,6 +63,13 @@ export const iconLibrary: Record<string, IconType> = {
   whatsapp: FaWhatsapp,
   reddit: FaReddit,
   telegram: FaTelegram,
+  premiere: SiAdobepremierepro,
+  aftereffect: SiAdobeaftereffects,
+  photoshop: SiAdobephotoshop,
+  illustrator: SiAdobeillustrator,
+  indesign: SiAdobeindesign,
+  lightroom: SiAdobelightroom,
+  ladipage: SiWebmoney,
 };
 
 export type IconLibrary = typeof iconLibrary;
