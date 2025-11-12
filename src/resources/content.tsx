@@ -96,7 +96,6 @@ const about: About = {
         my passion for this field has driven me to continuously learn and enhance
         my multimedia skills."
       </>
-    ),
   },
   work: {
     display: true, // set to false to hide this section
@@ -111,8 +110,6 @@ const about: About = {
             Designed visuals, printed materials, and multi-platform promotional videos on topics
             such as robotics and programming, helping increase engagement and achieve multiple
             videos with over 1 million views.
-          </>,
-          <>
           </>,
         ],
         images: [
@@ -134,8 +131,6 @@ const about: About = {
             Designed multimedia content, including product images, standees, backdrops, event
             award presentations, and multi-platform videos featuring products from Korea.
           </>,
-          <>
-          </>,
         ],
         images: [],
       },
@@ -148,8 +143,6 @@ const about: About = {
             Designed multimedia content, including images, broadcast materials, printed publications,
             landing pages, and multi-platform promotional videos focused on cosmetics and beauty for
             the brands Luminous and Dr.Nara.
-          </>,
-          <>
           </>,
         ],
         images: [],
@@ -244,6 +237,10 @@ const about: About = {
           {
             name: "Figma",
             icon: "figma",
+          },
+          {
+            name: "Premiere",
+            icon: "premiere",
           },
         ],
         // optional: leave the array empty if you don't want to display images
