@@ -253,8 +253,6 @@ const about: About = {
             name: "Figma",
             icon: "figma",
           },
-        ],
-        tags: [
           {
             name: "Premiere",
             icon: "premiere",
