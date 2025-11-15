@@ -27,6 +27,12 @@ import {
   SiNextdotjs,
   SiFigma,
   SiSupabase,
+  SiAdobepremierepro,
+  SiAdobeaftereffects,
+  SiAdobephotoshop,
+  SiAdobeillustrator,
+  SiAdobeindesign,
+  SiAdobelightroom,SiWebmoney,
 } from "react-icons/si";
 
 import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
@@ -63,13 +69,6 @@ export const iconLibrary: Record<string, IconType> = {
   whatsapp: FaWhatsapp,
   reddit: FaReddit,
   telegram: FaTelegram,
-  premiere: SiAdobepremierepro,
-  aftereffect: SiAdobeaftereffects,
-  photoshop: SiAdobephotoshop,
-  illustrator: SiAdobeillustrator,
-  indesign: SiAdobeindesign,
-  lightroom: SiAdobelightroom,
-  ladipage: SiWebmoney,
 };
 
 export type IconLibrary = typeof iconLibrary;
