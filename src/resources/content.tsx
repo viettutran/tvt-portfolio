@@ -255,7 +255,7 @@ const about: About = {
           },
           {
             name: "Premiere",
-            icon: "premiere",
+            icon: "SiAdobepremierepro",
           },
         ],
         
