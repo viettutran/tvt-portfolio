@@ -254,6 +254,13 @@ const about: About = {
             icon: "figma",
           },
         ],
+        tags: [
+          {
+            name: "Premiere",
+            icon: "premiere",
+          },
+        ],
+        
         // optional: leave the array empty if you don't want to display images
         images: [
           {
